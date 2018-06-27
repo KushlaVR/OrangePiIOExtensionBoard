@@ -12,7 +12,8 @@
 Виходи реалізовані на двох модулях PCF8574 на 8 портів. На платі передбачено місце під перемички для налаштування адрес модулів. Типово перемички встановлено таким чином, що адреси модулів 0x25 та 0x27.
 - Кожен GPIO Raspberry виведено на окрему шину (Шина сумісна з датчиками для Arduino. Біля кожного GPIO продубльовано піни живлення і мінус).
 
-##Full instructions
+## Full instructions
+
 ```
 git config --global user.name "KushlaVR"
 git config --global user.email "kushlavr@gmail.com"
