@@ -11,3 +11,17 @@
 Кожені вихід має відповідний світлодіод, який загоряєтьсся при активацїі відповідного виходу.
 Виходи реалізовані на двох модулях PCF8574 на 8 портів. На платі передбачено місце під перемички для налаштування адрес модулів. Типово перемички встановлено таким чином, що адреси модулів 0x25 та 0x27.
 - Кожен GPIO Raspberry виведено на окрему шину (Шина сумісна з датчиками для Arduino. Біля кожного GPIO продубльовано піни живлення і мінус).
+
+##Full instructions
+```
+git config --global user.name "KushlaVR"
+git config --global user.email "kushlavr@gmail.com"
+git clone https://github.com/KushlaVR/OrangePiIOExtensionBoard.git /OrangePi_Prime/OrangePiIOExtensionBoard/
+cd OrangePiIOExtensionBoard
+git remote add upstream  https://github.com/KushlaVR/OrangePiIOExtensionBoard.git
+git remote -v
+git add .
+git config --global push.default simple
+git commit -m "OrangePiIOExtensionBoard"
+git push origin
+```
