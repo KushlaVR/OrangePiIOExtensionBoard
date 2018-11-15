@@ -25,14 +25,26 @@
 
 
 ## Інструкція для git
+### Завантажити н борт Raspberry/Orange
 
 ```
 git clone https://github.com/KushlaVR/OrangePiIOExtensionBoard.git /OrangePi_Prime/OrangePiIOExtensionBoard/
+```
+### Налаштування для контролю версії локальної копії
+Необхідно клонувати проект у свій акаунт Git і виконати наступні дії
+```
 cd OrangePiIOExtensionBoard
-git remote add upstream  https://github.com/KushlaVR/OrangePiIOExtensionBoard.git
+git remote add upstream  https://github.com/<YOUR_GIT_USER_NAME>/OrangePiIOExtensionBoard.git
 git remote -v
+```
+Застосувати локальні зміни і вивантажити локальну версію у GIT
+```
+cd OrangePiIOExtensionBoard
 git add .
 git config --global push.default simple
 git commit -m "OrangePiIOExtensionBoard"
 git push origin
 ```
+
+## Розташування модулів
+![Board 45 deg view](https://raw.githubusercontent.com/KushlaVR/OrangePiIOExtensionBoard/master/Descryption.jpg)
