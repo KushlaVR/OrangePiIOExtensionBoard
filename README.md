@@ -45,6 +45,8 @@ git config --global push.default simple
 git commit -m "OrangePiIOExtensionBoard"
 git push origin
 ```
+## Тестова програма
+Тестова програма знаходиться у папці <b>BoardTests</b>. Програма насисана у середовищі CodeLight.
 
 ## Розташування модулів
 ![Board 45 deg view](https://raw.githubusercontent.com/KushlaVR/OrangePiIOExtensionBoard/master/Descryption.jpg)
