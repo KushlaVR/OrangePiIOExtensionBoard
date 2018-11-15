@@ -25,7 +25,7 @@
 
 
 ## Інструкція для git
-### Завантажити н борт Raspberry/Orange
+### Завантажити на борт Raspberry/Orange
 
 ```
 git clone https://github.com/KushlaVR/OrangePiIOExtensionBoard.git /OrangePi_Prime/OrangePiIOExtensionBoard/
