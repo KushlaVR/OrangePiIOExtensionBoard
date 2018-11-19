@@ -50,3 +50,6 @@ git push origin
 
 ## Розташування модулів
 ![Board 45 deg view](https://raw.githubusercontent.com/KushlaVR/OrangePiIOExtensionBoard/master/Descryption.jpg)
+
+##Де придбати?
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323.5448010625589!2d25.592877295273983!3d49.55326021805983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc40ce8e14c133f2f!2z0JXQu9C10LrRgtGA0L4!5e0!3m2!1suk!2sua!4v1542617657985" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
